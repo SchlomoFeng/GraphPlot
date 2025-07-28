@@ -1,5 +1,7 @@
 import networkx as nx
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # 使용 headless backend
 import matplotlib.pyplot as plt
 from sklearn.cluster import DBSCAN, AgglomerativeClustering
 from sklearn.metrics.pairwise import euclidean_distances
@@ -12,7 +14,7 @@ def read_PipeFile(debug):
     # debug 情况下直接读 txt文件
     if debug:
         # 修改文件名为新的更新文件
-        with open('G://中控技术//blueprint//0708烟台S4_updated.json', 'r', encoding='utf-8') as file:
+        with open('0708烟台_updated.txt', 'r', encoding='utf-8') as file:
             # 使用json.load()方法将JSON字符串解析为Python对象
             data = json.load(file)
 
@@ -31,9 +33,10 @@ def read_PipeFile(debug):
         edgeDF['sourceid_original'] = edgeDF['sourceid']
         edgeDF['targetid_original'] = edgeDF['targetid']
 
-        # 得到坐标信息
+        # 得到坐标信息和节点类型
         nodeParas = []
         nodePSTs = []
+        nodeTypes = []
         
         for i in range(len(nodeDF)):
             try:
@@ -42,6 +45,10 @@ def read_PipeFile(debug):
                 else:
                     para = nodeDF['parameter'].iloc[i]
                 nodeParas.append(para)
+                
+                # 提取节点类型
+                node_type = para.get('type', 'Unknown')
+                nodeTypes.append(node_type)
                 
                 # 提取位置信息
                 if 'styles' in para and 'position' in para['styles']:
@@ -55,11 +62,13 @@ def read_PipeFile(debug):
             except (json.JSONDecodeError, KeyError) as e:
                 print(f"解析节点 {nodeDF['id'].iloc[i]} 的参数时出错: {e}")
                 nodeParas.append({})
+                nodeTypes.append('Unknown')
                 nodePSTs.append([0, 0])
         
         nodePSTs = pd.Series(nodePSTs)
+        nodeTypes = pd.Series(nodeTypes)
 
-        return nodeDF, edgeDF, nodeID, edgeID, nodePSTs
+        return nodeDF, edgeDF, nodeID, edgeID, nodePSTs, nodeTypes
     # 在线运行时再说
     else:
         pass
@@ -113,9 +122,27 @@ def make_edge_attr(edgeDF, nodeID_to_index):
 def main(debug):
 
     # 读节点和边数据 df
-    nodeDF, edgeDF, nodeID, edgeID, nodePSTs = read_PipeFile(debug)
+    nodeDF, edgeDF, nodeID, edgeID, nodePSTs, nodeTypes = read_PipeFile(debug)
     
     print(f"读取到 {len(nodeDF)} 个节点和 {len(edgeDF)} 条边")
+
+    # 创建节点类型到标记形状的映射
+    # 注意：数据中是"VavlePro"而不是"ValvePro"，这里处理这个拼写错误
+    node_type_to_marker = {
+        'Stream': 'o',      # Circle 
+        'Mixer': 's',       # Square
+        'VavlePro': '^',    # Triangle (处理数据中的拼写错误)
+        'ValvePro': '^',    # Triangle (标准拼写)
+        'Tee': 'D',         # Diamond
+        'Unknown': 'p',     # Pentagon (默认)
+    }
+    
+    # 打印节点类型统计
+    print("节点类型分布:")
+    type_counts = nodeTypes.value_counts()
+    for node_type, count in type_counts.items():
+        marker = node_type_to_marker.get(node_type, node_type_to_marker['Unknown'])
+        print(f"  {node_type}: {count} 个节点 (标记: {marker})")
 
     # 创建一个字典，将节点ID映射为索引
     nodeID_to_index = {val: idx for idx, val in enumerate(nodeID)}
@@ -150,19 +177,56 @@ def main(debug):
         # 准备节点位置字典（索引->坐标）
         pos = {i: nodePSTs.iloc[i] for i in range(len(nodePSTs))}
         
-        # 绘制节点，按聚类结果着色
+        # 绘制节点，按聚类结果着色并按节点类型使用不同标记
         unique_clusters = np.unique(clusters)
         colors = plt.cm.rainbow(np.linspace(0, 1, len(unique_clusters)))
+        
+        # 用于图例的句柄和标签
+        cluster_handles = []
+        cluster_labels = []
+        marker_handles = []
+        marker_labels = []
         
         for i, cluster in enumerate(unique_clusters):
             nodes_in_cluster = [idx for idx, c in enumerate(clusters) if c == cluster]
             if nodes_in_cluster:  # 确保聚类不为空
-                cluster_positions = [pos[node] for node in nodes_in_cluster]
-                x_coords = [p[0] for p in cluster_positions]
-                y_coords = [p[1] for p in cluster_positions]
-                plt.scatter(x_coords, y_coords, 
-                           c=[colors[i]], s=50, 
-                           label=f'聚类 {cluster}', alpha=0.7)
+                # 按节点类型分组绘制该聚类中的节点
+                cluster_types = {}
+                for node_idx in nodes_in_cluster:
+                    node_type = nodeTypes.iloc[node_idx]
+                    if node_type not in cluster_types:
+                        cluster_types[node_type] = []
+                    cluster_types[node_type].append(node_idx)
+                
+                # 为每种类型绘制节点
+                for node_type, type_nodes in cluster_types.items():
+                    positions = [pos[node] for node in type_nodes]
+                    x_coords = [p[0] for p in positions]
+                    y_coords = [p[1] for p in positions]
+                    
+                    marker = node_type_to_marker.get(node_type, node_type_to_marker['Unknown'])
+                    
+                    # 绘制该类型的节点
+                    scatter = plt.scatter(x_coords, y_coords, 
+                                        c=[colors[i]], s=50, 
+                                        marker=marker, alpha=0.7, 
+                                        edgecolors='black', linewidth=0.5)
+                
+                # 为聚类图例添加一个代表性的散点
+                representative_pos = pos[nodes_in_cluster[0]]
+                cluster_scatter = plt.scatter([representative_pos[0]], [representative_pos[1]], 
+                                           c=[colors[i]], s=50, marker='o', alpha=0.7)
+                cluster_handles.append(cluster_scatter)
+                cluster_labels.append(f'聚类 {cluster}')
+        
+        # 为节点类型图例创建散点
+        unique_types = nodeTypes.unique()
+        for node_type in sorted(unique_types):
+            marker = node_type_to_marker.get(node_type, node_type_to_marker['Unknown'])
+            type_scatter = plt.scatter([], [], c='gray', s=50, marker=marker, 
+                                     alpha=0.7, edgecolors='black', linewidth=0.5)
+            marker_handles.append(type_scatter)
+            marker_labels.append(f'{node_type} ({marker})')
         
         # 绘制边
         for _, edge in edge_attr.iterrows():
@@ -172,10 +236,24 @@ def main(debug):
                     'k-', alpha=0.3, linewidth=0.5)
         
         plt.title(title, fontsize=14)
-        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+        
+        # 创建两个图例：一个用于聚类颜色，一个用于节点类型标记
+        legend1 = plt.legend(cluster_handles, cluster_labels, 
+                           bbox_to_anchor=(1.05, 1), loc='upper left', 
+                           title='聚类')
+        legend2 = plt.legend(marker_handles, marker_labels, 
+                           bbox_to_anchor=(1.05, 0.6), loc='upper left', 
+                           title='节点类型')
+        plt.gca().add_artist(legend1)  # 确保两个图例都显示
+        
         plt.grid(alpha=0.3)
         plt.axis('equal')
         plt.tight_layout()
+        
+        # 保存图像文件
+        filename = f"{title.replace(' ', '_')}_with_markers.png"
+        plt.savefig(filename, dpi=150, bbox_inches='tight')
+        print(f"图像已保存为: {filename}")
         
         return cluster_dict
 
@@ -257,7 +335,7 @@ def main(debug):
             "K-means聚类结果"
         )
 
-        plt.show()
+        print("所有聚类图已生成并保存为PNG文件")
 
         # 分析出口节点
         all_nodes_idx = set(range(len(nodeID)))
