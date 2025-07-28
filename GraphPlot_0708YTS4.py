@@ -58,6 +58,28 @@ def read_PipeFile(debug):
                 nodePSTs.append([0, 0])
         
         nodePSTs = pd.Series(nodePSTs)
+        
+        # Extract node types and filter for Stream nodes only
+        nodeTypes = []
+        for para in nodeParas:
+            node_type = para.get('type', 'Unknown')
+            nodeTypes.append(node_type)
+
+        # Filter for Stream nodes only
+        stream_mask = [node_type == 'Stream' for node_type in nodeTypes]
+        original_node_count = len(nodeDF)
+        stream_node_count = sum(stream_mask)
+        
+        print(f"原始节点数: {original_node_count}")
+        print(f"Stream节点数: {stream_node_count}")
+        print(f"过滤掉的节点数: {original_node_count - stream_node_count}")
+        
+        # Apply filter to all node-related data structures
+        nodeDF = nodeDF[stream_mask].reset_index(drop=True)
+        nodePSTs = nodePSTs[stream_mask].reset_index(drop=True)
+        
+        # Update nodeID to only include Stream nodes
+        nodeID = nodeDF['id']
 
         return nodeDF, edgeDF, nodeID, edgeID, nodePSTs
     # 在线运行时再说
@@ -67,12 +89,13 @@ def read_PipeFile(debug):
 def make_edge_attr(edgeDF, nodeID_to_index):
     # 建立连接关系矩阵，使用索引
     edge_data = []
+    skipped_edges = 0
     
     for i in range(len(edgeDF)):
         source_id = edgeDF['sourceid_original'].iloc[i]
         target_id = edgeDF['targetid_original'].iloc[i]
         
-        # 检查节点是否存在
+        # 检查节点是否存在 (只有Stream节点会在nodeID_to_index中)
         if source_id in nodeID_to_index and target_id in nodeID_to_index:
             from_idx = nodeID_to_index[source_id]
             to_idx = nodeID_to_index[target_id]
@@ -104,7 +127,9 @@ def make_edge_attr(edgeDF, nodeID_to_index):
                     'edge_id': edgeDF['id'].iloc[i]
                 })
         else:
-            print(f"警告: 边 {edgeDF['id'].iloc[i]} 的端点节点不存在，跳过此边")
+            skipped_edges += 1
+    
+    print(f"跳过了 {skipped_edges} 条边（连接非Stream节点）")
     
     edge_attr = pd.DataFrame(edge_data)
     return edge_attr
@@ -160,8 +185,9 @@ def main(debug):
                 cluster_positions = [pos[node] for node in nodes_in_cluster]
                 x_coords = [p[0] for p in cluster_positions]
                 y_coords = [p[1] for p in cluster_positions]
+                # 使用圆形标记('o')绘制Stream节点
                 plt.scatter(x_coords, y_coords, 
-                           c=[colors[i]], s=50, 
+                           c=[colors[i]], s=50, marker='o',
                            label=f'聚类 {cluster}', alpha=0.7)
         
         # 绘制边
@@ -176,6 +202,12 @@ def main(debug):
         plt.grid(alpha=0.3)
         plt.axis('equal')
         plt.tight_layout()
+        
+        # 保存图片而不是显示
+        filename = f"/tmp/{title.replace(' ', '_')}.png"
+        plt.savefig(filename, dpi=150, bbox_inches='tight')
+        print(f"保存图片: {filename}")
+        plt.close()  # 关闭图片以节省内存
         
         return cluster_dict
 
@@ -238,26 +270,34 @@ def main(debug):
             "DBSCAN聚类结果"
         )
 
-        # 2. 层次聚类（凝聚式）
+        # 2. 层次聚类（凝聚式）- 自适应聚类数量
+        n_nodes = len(G.nodes())
+        n_clusters_hierarchical = min(25, max(2, n_nodes // 2))  # 确保聚类数不超过节点数的一半
+        print(f"层次聚类使用 {n_clusters_hierarchical} 个聚类")
+        
         hierarchical_dict = apply_clustering_and_visualize(
             "层次聚类",
             AgglomerativeClustering(
-                n_clusters=25,
+                n_clusters=n_clusters_hierarchical,
                 metric="precomputed",
                 linkage='average'
             ),
             "层次聚类结果"
         )
 
-        # 3. K-means聚类（基于质心）
+        # 3. K-means聚类（基于质心）- 自适应聚类数量
+        n_clusters_kmeans = min(25, max(2, n_nodes // 2))  # 确保聚类数不超过节点数的一半
+        print(f"K-means聚类使用 {n_clusters_kmeans} 个聚类")
+        
         from sklearn.cluster import KMeans, kmeans_plusplus
         kmeans_dict = apply_clustering_and_visualize(
             "K-means",
-            KMeans(n_clusters=25, random_state=42, max_iter=300),
+            KMeans(n_clusters=n_clusters_kmeans, random_state=42, max_iter=300),
             "K-means聚类结果"
         )
 
         plt.show()
+        print("所有聚类图片已保存到 /tmp/ 目录")
 
         # 分析出口节点
         all_nodes_idx = set(range(len(nodeID)))
