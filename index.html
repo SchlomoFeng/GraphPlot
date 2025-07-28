@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管网图纸拓扑结构可视化</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Using vanilla JavaScript instead of D3.js -->
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>管网图纸拓扑结构可视化</h1>
+            <div class="controls">
+                <input type="file" id="file-input" accept=".txt,.json" style="display: none;">
+                <button id="load-file-btn" class="btn">加载数据文件</button>
+                <button id="load-default-btn" class="btn">加载默认数据</button>
+                <button id="reset-view-btn" class="btn">重置视图</button>
+                <button id="export-png-btn" class="btn">导出PNG</button>
+                <button id="export-svg-btn" class="btn">导出SVG</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="legend">
+                    <h3>图例</h3>
+                    <div id="legend-container"></div>
+                </div>
+                <div class="stats">
+                    <h3>统计信息</h3>
+                    <div id="stats-container">
+                        <p>节点数: <span id="node-count">0</span></p>
+                        <p>连接数: <span id="edge-count">0</span></p>
+                        <p>节点类型: <span id="type-count">0</span></p>
+                    </div>
+                </div>
+                <div class="info-panel">
+                    <h3>详细信息</h3>
+                    <div id="info-content">
+                        <p>悬停或点击节点/连接查看详细信息</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visualization-area">
+                <div class="toolbar">
+                    <label for="zoom-level">缩放: <span id="zoom-value">100%</span></label>
+                    <input type="range" id="zoom-level" min="10" max="500" value="100">
+                    <label>
+                        <input type="checkbox" id="show-labels" checked> 显示标签
+                    </label>
+                    <label>
+                        <input type="checkbox" id="show-edge-labels" checked> 显示管道名称
+                    </label>
+                </div>
+                <svg id="graph-svg"></svg>
+            </div>
+        </div>
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+    
+    <script src="js/data-parser.js"></script>
+    <script src="js/graph-visualizer-vanilla.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
