@@ -1,0 +1,1019 @@
+成功从 G://中控技术//blueprint//新建文本文档.txt 中提取了 339 条记录：
+
+tag: Background
+  position: {"x": 62247.36743, "y": -23695.31436}
+
+tag: 2d2a41fc-7629-4d97-85b1-8839140d0689
+  position: {"x": 39101.04065, "y": -7498.95935}
+
+tag: b8e1f26a-3d6e-4d44-9377-a106c3e87a46
+  position: {"x": 55953.80797, "y": -18008.1221}
+
+tag: 448a6249-67b1-488f-985d-e058747d6cf6
+  position: {"x": 58280.19903, "y": -17162.17757}
+
+tag: 32f17504-43a0-4005-8e23-cd116eb97d52
+  position: {"x": 21900, "y": 4200}
+
+tag: 518322a7-1694-416a-a444-27822d820e3b
+  position: {"x": 7190.33359, "y": -7686.21867}
+
+tag: 5831f245-4b0e-4d64-aede-6a6e8a75c2cf
+  position: {"x": 7400, "y": -8200}
+
+tag: e4f63139-57c4-44d1-bef2-c5e69daee945
+  position: {"x": 25089.42345, "y": -18182.45276}
+
+tag: 6a7392d4-39c4-4337-9015-40b3626643c0
+  position: {"x": 41126.04885, "y": -27202.49626}
+
+tag: 23a0e000-9331-49b5-b1a6-d4afc920fae1
+  position: {"x": 23718.11278, "y": -18773.34722}
+
+tag: 378bd11b-dbd3-4c32-953a-2afeca37eb01
+  position: {"x": 39935.26763, "y": -27573.35373}
+
+tag: 073ef117-c8eb-4607-97e7-33f21d3b0883
+  position: {"x": 4500, "y": -29150}
+
+tag: c34d5b79-c15b-410f-b842-fc7f81b9e772
+  position: {"x": 22024.41065, "y": -38527.87738}
+
+tag: ea62bf20-79bb-4398-a88b-948d4eb57b3b
+  position: {"x": -13683.20138, "y": -19660}
+
+tag: 7a569ef7-0d81-488a-a9bc-61d1b48a9a74
+  position: {"x": -11260.40131, "y": 1518.01554}
+
+tag: f270ea4d-8853-4e72-9e9e-a0d8d97c01a4
+  position: {"x": -9949.96234, "y": 812.24182}
+
+tag: 0753d76c-e244-432d-bdb3-44e6591b7569
+  position: {"x": 20100, "y": -38900}
+
+tag: ba66ce86-61ef-4edc-8b07-cd5bed90d0ff
+  position: {"x": 54401.04065, "y": 2801.04065}
+
+tag: c559ecf0-afd3-4f1b-9383-9ef3b8ff025a
+  position: {"x": 58901.04065, "y": 3301.04065}
+
+tag: 8b6bd717-c2db-4ef3-a51e-5cbbcca4db68
+  position: {"x": 4600, "y": -29400}
+
+tag: 07b8a6c5-02f0-44bd-8da9-5c706dd3d7f1
+  position: {"x": 74101.04065, "y": -5798.95935}
+
+tag: 059e19c9-59bb-4b80-b7e8-ae3508457b62
+  position: {"x": 73101.04065, "y": -5598.95935}
+
+tag: a40b27b0-c3f5-4301-a0b9-f2141c3f549a
+  position: {"x": 89471.22606, "y": 1417.80925}
+
+tag: 2e8c9726-f8bf-48f8-a8c5-25ed0b258756
+  position: {"x": 88280.64795, "y": -18580.69049}
+
+tag: 779b8dd3-fcc2-456b-a676-89c9b09b5c78
+  position: {"x": 42301.04065, "y": 12801.04065}
+
+tag: 5877cb2f-b852-4bec-b7ce-1344c98804b0
+  position: {"x": 43451.93016, "y": 13908.68429}
+
+tag: 32de682a-0b31-465d-9d6b-87891902430c
+  position: {"x": -17000, "y": -19100}
+
+tag: e200aa29-e758-422d-ab2e-01b7ad25fc36
+  position: {"x": 86859.47217, "y": 1417.80925}
+
+tag: e3007462-3f52-48f1-9102-abb5f3e02080
+  position: {"x": 7581.42143, "y": 13547.67046}
+
+tag: 1c9aad62-eb19-46cb-a196-369b1f833938
+  position: {"x": 4449.96475, "y": 12855.45373}
+
+tag: 17da336e-991b-4a7c-bf2e-292d5f375e9f
+  position: {"x": 91962.56906, "y": -16525.66475}
+
+tag: aceb43a2-7d6e-4f8f-a13d-91e89dbfee5c
+  position: {"x": 106034.69647, "y": -25270.54293}
+
+tag: 02591048-4a76-44a4-9fa3-568a64a56f48
+  position: {"x": 115714.86375, "y": -30573.8689}
+
+tag: 406d7aca-61f9-433c-a4e3-694ea0593edc
+  position: {"x": 112040.87287, "y": -30701.65989}
+
+tag: 133c0402-2bdd-4288-b54a-e902d285de83
+  position: {"x": 139110.14477, "y": -39250.9952}
+
+tag: 8506301c-2d8f-448b-b890-100327f4aef2
+  position: {"x": 150264.09413, "y": -24042.25506}
+
+tag: a6ecbc63-a9eb-4d6c-bde7-19b481dd7d60
+  position: {"x": 143600, "y": -22700}
+
+tag: 321edc80-8cf4-430f-9705-2cffb3b386bc
+  position: {"x": 172571.42857, "y": -35142.85714}
+
+tag: 2c8978d7-bd47-49ab-bbec-5ca86edbceda
+  position: {"x": 164881.06333, "y": -35556.49712}
+
+tag: 57f2a035-88f1-4550-82ac-64f98714187b
+  position: {"x": 185225.3396, "y": -45215.56354}
+
+tag: 9b03e55d-1abb-4893-85fd-a1d2fb9aa674
+  position: {"x": 185091.23789, "y": -45598.71514}
+
+tag: b4d5fee7-9c3b-41cd-8c9d-167fc879749c
+  position: {"x": 201360.54422, "y": -54240.36281}
+
+tag: 151a37d3-4bfb-4a67-9be6-ab3bb5ed524c
+  position: {"x": 199573.994, "y": -54210.62695}
+
+tag: f8042d87-a571-49b5-8ce9-49e3456f195f
+  position: {"x": 217324.54769, "y": -60876.43155}
+
+tag: fabf1a72-f23a-4afd-8d21-54c8854513c8
+  position: {"x": 211280.3208, "y": -61690.3725}
+
+tag: aea38fa3-7ac4-4395-b1fc-e4c31deb3583
+  position: {"x": 165689.46351, "y": -9456.98562}
+
+tag: 3e1449df-df67-4610-a9a5-aceadedba10c
+  position: {"x": 158793.30388, "y": -12816.58724}
+
+tag: e411686c-5225-4b30-ab49-ae7ea234b753
+  position: {"x": 162900, "y": -6500}
+
+tag: b702ae52-c120-4a1a-9565-476c95a4e576
+  position: {"x": 187211.85458, "y": -23521.7361}
+
+tag: fa0b4f1c-7961-4cff-b2ec-adfb82ad30db
+  position: {"x": 185712.0934, "y": -23641.15646}
+
+tag: 0abbe186-f0ea-4887-8739-01140f6ec198
+  position: {"x": -30098.09992, "y": -10673.76706}
+
+tag: 5ba97521-3ebf-4250-a3fc-90f4e75cf6c3
+  position: {"x": -32305.75079, "y": -11356.62912}
+
+tag: 51d25029-308d-4989-8243-a37a6f834552
+  position: {"x": 39175.27918, "y": -50012.55268}
+
+tag: 32869d97-aeb6-4709-97a5-a760c87f94f4
+  position: {"x": 35073.75264, "y": -49365.48737}
+
+tag: 3740df35-bc01-4967-ba31-184f22e1b2d5
+  position: {"x": 53179.42626, "y": -37344.54584}
+
+tag: e2af558c-a900-4920-a8fb-dbe5388277a2
+  position: {"x": 46109.97046, "y": -38327.07736}
+
+tag: 0e4adb7a-353e-4113-b908-0d986d50cce9
+  position: {"x": 16200, "y": -61900}
+
+tag: 165a1776-fbf4-4f00-89e6-c168416ba17a
+  position: {"x": 34768.37931, "y": -72520.1839}
+
+tag: d897c66b-c4ec-489f-b425-7bad19a9beb0
+  position: {"x": 32900, "y": -72900}
+
+tag: 63e08a38-f16b-4211-8811-196f4d6c8335
+  position: {"x": 13180.74812, "y": -62239.13799}
+
+tag: e4b980bd-af62-4941-90be-a47a9f4fe6cd
+  position: {"x": 57122.78861, "y": -85553.59522}
+
+tag: 7dec1f64-560a-476d-8a3e-c115ee726509
+  position: {"x": 56720.6228, "y": -86621.28156}
+
+tag: 1f1efa76-0b4b-45eb-be9f-9328cd161670
+  position: {"x": -5100, "y": -51400}
+
+tag: 4f229c72-bf16-4ac0-b84b-7c9783b70161
+  position: {"x": -257.84357, "y": -51891.01776}
+
+tag: 6ebdda1d-0574-48d2-924e-eae6bf5947c8
+  position: {"x": -13382.50764, "y": -41954.30946}
+
+tag: d6aa8dbc-ace0-4199-ab2a-bbb62c49d7ce
+  position: {"x": -18686.27502, "y": -43803.86963}
+
+tag: cc4b217f-c5a1-49c3-9a39-c4bd9b2fd34b
+  position: {"x": -53594.62703, "y": -4297.39277}
+
+tag: 6e571a8c-02f8-4cd5-90ee-9a6e58b48fde
+  position: {"x": -55239.43674, "y": -4406.93769}
+
+tag: 3fd592bd-ba73-4c93-bb27-5ace109b1dfc
+  position: {"x": -35000, "y": 3600}
+
+tag: 784b605b-ecb4-4e47-9c87-ac30f87b76f1
+  position: {"x": -38211.07147, "y": 2433.95225}
+
+tag: 45751da9-bbf7-40a2-8c98-bb213d53cce0
+  position: {"x": -18400, "y": 11800}
+
+tag: f8373fda-29ed-4136-9862-26da1c8557a3
+  position: {"x": -24450, "y": 19950}
+
+tag: dd93c640-fc0a-4c9c-86b9-27e454a6a513
+  position: {"x": -19900, "y": 11700}
+
+tag: 6cf69aba-7c42-43da-bd9c-a65c64444abf
+  position: {"x": -5277.02474, "y": 19127.30675}
+
+tag: 1934b200-eb34-4c7f-b8b3-fe9bc9e20a71
+  position: {"x": -7758.83732, "y": 19731.08299}
+
+tag: 8b9d734e-2e2d-4021-aa86-4c4a8836cf9e
+  position: {"x": 32001.04065, "y": 22001.04065}
+
+tag: f68165f0-0d1a-4207-aea7-ed3ed811ef31
+  position: {"x": 27811.404, "y": 24311.54192}
+
+tag: d82932ab-8c6c-4ae0-8555-aada10e8e34e
+  position: {"x": 74783.26526, "y": 10301.49224}
+
+tag: 06c4075c-8354-4eaa-bea4-cbf9a0e7b34b
+  position: {"x": 70439.9334, "y": 10301.49224}
+
+tag: c5d5b24f-aff0-4ee7-8b47-a8ad0a2de55d
+  position: {"x": 82979.15211, "y": 15222.79409}
+
+tag: 153d4be8-80e5-44e6-92a8-bc010065ad0d
+  position: {"x": 79627.7508, "y": 15145.97777}
+
+tag: a4795e57-a623-4426-bc25-530b46af0d21
+  position: {"x": 95739.43539, "y": 7387.53243}
+
+tag: 801c2b3e-9161-4e65-a4d2-5be05910ee67
+  position: {"x": 94247.0046, "y": 8208.36936}
+
+tag: a41e951a-e1dd-45bd-a109-433fc66a260c
+  position: {"x": 88510.63342, "y": 27099.42102}
+
+tag: f65e50d1-8f9b-43ae-b18e-fbeca941e9d4
+  position: {"x": 90048.56534, "y": 25561.4891}
+
+tag: a9e653b5-5d92-4c25-b92d-268045b3c6c3
+  position: {"x": 7367.42952, "y": 28026.73282}
+
+tag: a00f7028-b156-4206-9e7d-dea59355e98e
+  position: {"x": 5101.04065, "y": 28101.04065}
+
+tag: b75559c4-e93f-4f93-853b-6d9bdb2f5b8e
+  position: {"x": 49501.04065, "y": 23201.04065}
+
+tag: b934a3a2-a85e-4714-bd7e-a6b62c35152f
+  position: {"x": 49783.84163, "y": 23286.23592}
+
+tag: d9a3e0da-3fe8-45d6-bd1c-1a6602528cfd
+  position: {"x": 60468.12092, "y": 21246.3348}
+
+tag: 191fd398-a248-4b8b-8bf8-886e61a364d9
+  position: {"x": 56701.04065, "y": 21201.04065}
+
+tag: 419fa76c-bc7a-4edb-bd3f-f1d568fdc4c0
+  position: {"x": -70655.5431, "y": 12249.25575}
+
+tag: e2a3139e-c1f7-4106-bb02-233bc1f1de4f
+  position: {"x": -72909.29962, "y": 11088.49375}
+
+tag: fdcb9de5-fb5e-43af-8603-86c19c7df78c
+  position: {"x": -50693.13785, "y": 11260.27349}
+
+tag: f66efcce-ab41-4fe8-bd4b-7d703c933254
+  position: {"x": -54329.72423, "y": 12487.07372}
+
+tag: f8b2ca5d-a22e-4346-b8d2-a62a4e336456
+  position: {"x": -102400, "y": 14600}
+
+tag: ecc77fae-9b60-4ff0-aafe-2a2c0d38db72
+  position: {"x": -104233.31248, "y": 11825.66698}
+
+tag: b6ac5905-bf68-4f6a-96ac-f7004305887c
+  position: {"x": 79301.04065, "y": -22298.95935}
+
+tag: 6fcf6e86-b274-4418-806c-22fefebee7eb
+  position: {"x": 77809.28185, "y": -20707.66194}
+
+tag: 3a7bff0e-c784-4ab2-9f9a-8221c60427ac
+  position: {"x": 71601.04065, "y": -23098.95935}
+
+tag: 946f246f-bc9e-4033-acc4-83107d4c35f1
+  position: {"x": 97701.04065, "y": -38198.95935}
+
+tag: 65ecbad3-b65c-4031-89dd-cb7eee20d98c
+  position: {"x": 91884.18763, "y": -37942.18921}
+
+tag: 3a6f5a4e-66dd-4e27-a3db-12e2a24ca0d0
+  position: {"x": 98308.55536, "y": -7060.73227}
+
+tag: 543ee4d2-a429-434a-86b5-b7e15c7dc53b
+  position: {"x": 96937.64697, "y": -6711.21579}
+
+tag: 4ef22ad3-c47f-4f40-b587-42865c33dad4
+  position: {"x": 132549.57093, "y": -44957.28933}
+
+tag: ce93c494-9606-434a-8eb0-7d2116a749af
+  position: {"x": 128443.72211, "y": -45069.60972}
+
+tag: 1d5c23e9-f90a-4de8-ac00-d399eb9c66fe
+  position: {"x": 140850, "y": -39050}
+
+tag: 2cb30da4-7491-4334-b553-b737d6b99738
+  position: {"x": 120382.9466, "y": -50380.52831}
+
+tag: f324ca6c-35eb-4f43-9cc7-c43964084087
+  position: {"x": 158885.04702, "y": -59740.47014}
+
+tag: 00c8ddfc-3fd7-4d4a-98b5-953457c8177e
+  position: {"x": 153226.23286, "y": -61112.88634}
+
+tag: a3653ea4-d0ed-48e8-8dec-8f6b432510be
+  position: {"x": 123667.90684, "y": -50171.43191}
+
+tag: d84443a8-6f1d-4e1d-b797-a6162e6d1ab8
+  position: {"x": 206179.31409, "y": -33206.58515}
+
+tag: b9d7515b-4cf6-40e9-afaf-f6f5eebc2f11
+  position: {"x": 200435.68799, "y": -33907.44165}
+
+tag: 63750278-73e7-404f-94d3-833a6e3c3af6
+  position: {"x": 213882.39892, "y": -41682.35086}
+
+tag: 51d82415-3483-4e34-ab7b-38eca196e538
+  position: {"x": 209213.62803, "y": -42900.54732}
+
+tag: 2e45d7c8-ee1e-4f26-9254-c3b6e2238276
+  position: {"x": 20401.04065, "y": 42901.04065}
+
+tag: 43f6405d-10f4-488e-85c2-15fab275b16f
+  position: {"x": 18201.70875, "y": 42334.81428}
+
+tag: d6b5bac1-b11d-4de1-beb8-ca63d9bc368c
+  position: {"x": 111300, "y": 5000}
+
+tag: 9b852fa5-fe90-4b5b-800d-d70fbc34b1cf
+  position: {"x": 64000, "y": -65000}
+
+tag: c77ac3ac-6c85-41df-b320-572ffdebb585
+  position: {"x": 53800, "y": -65300}
+
+tag: 816fc4ad-4701-44a1-acc2-adb9fe5e990c
+  position: {"x": -46350, "y": -26501.9128}
+
+tag: eb07f867-0ef3-4cf9-a1e8-9b90ef8fc5b5
+  position: {"x": -48200, "y": -26800}
+
+tag: 95d61c4e-f54e-433b-b17c-23a188506b6f
+  position: {"x": -74700, "y": 31400}
+
+tag: 92c5e3fe-5fda-410a-a719-b04530021666
+  position: {"x": -77440.05728, "y": 31428.59467}
+
+tag: 3b3562f1-76c6-4e1b-b12a-c9cc16080d19
+  position: {"x": 115335.0517, "y": 4857.86223}
+
+tag: 3ddd5b14-121f-4307-a88c-7219702e99c6
+  position: {"x": 25769.87631, "y": 2613.16944}
+
+tag: 7018e202-a553-4cdd-99e4-c774cea4615f
+  position: {"x": 42901.04065, "y": -7498.95935}
+
+tag: e17ca10f-cc6b-43c4-ab57-2a6fbf2d658e
+  position: {"x": 59548.7652, "y": -17311.42065}
+
+tag: 5ec4947c-7a8e-40f4-9da1-33a36ead343d
+  position: {"x": 44409.78271, "y": -15400}
+
+tag: 037e2eee-1f82-44b4-ad59-93c90f416b76
+  position: {"x": 46488.24368, "y": -16600, "h": 0}
+
+tag: e150338b-787a-4e4d-a109-a6b8b2a0a5f2
+  position: {"x": -969.94845, "y": 240}
+
+tag: d4350a49-1729-4942-bd00-f7912db7d91a
+  position: {"x": -623.53829, "y": 40, "h": 0}
+
+tag: 9b2e03c5-1262-40b1-a76c-ae5df3ce63e2
+  position: {"x": 1247.07658, "y": -1280, "h": -240}
+
+tag: 4d8f79ed-8c5d-4a4d-8bc4-a81614e0967a
+  position: {"x": -11396.89431, "y": -8380, "h": 200}
+
+tag: 6dcadff3-3438-45d9-ae26-917a89c49a51
+  position: {"x": -11881.86854, "y": -8860, "h": 0}
+
+tag: 377627a8-4666-409a-b5cf-edfd95580572
+  position: {"x": -11847.22752, "y": -8880, "h": 0}
+
+tag: d46a0957-67bc-4edd-aa2e-ce97644e2e93
+  position: {"x": -13579.27833, "y": -11440}
+
+tag: 358659c7-1222-424e-8176-b0ce78f1f2bb
+  position: {"x": -415.69219, "y": -15480}
+
+tag: 634b3419-18d0-4553-a941-15c6316ee448
+  position: {"x": 484.97423, "y": -14960}
+
+tag: 41ce44cd-3ea4-4311-aea0-bb648b3fa490
+  position: {"x": 831.38439, "y": -14760}
+
+tag: e61d2489-e29c-4702-b49b-de06b6cf9603
+  position: {"x": 1905.25589, "y": -1660, "h": 0}
+
+tag: a7cdeeeb-faf6-4db2-8602-8a4576341d74
+  position: {"x": -692.82032, "y": -680, "h": 40}
+
+tag: d59622c7-25df-42d6-825d-7b28f8e10a95
+  position: {"x": 7274.61339, "y": -5440, "h": 0}
+
+tag: 91a1c9b4-0c4f-44ae-afff-c0cc754674ee
+  position: {"x": 7724.9466, "y": -5140, "h": 40}
+
+tag: 1740f3eb-c4bb-4e4a-ba99-a68836681b74
+  position: {"x": 7551.74152, "y": -5600, "h": 0}
+
+tag: fba45ba7-9741-45ce-b7d7-7f56e5459e34
+  position: {"x": 8487.04896, "y": -6140, "h": 0}
+
+tag: 62fc8e21-f24b-4dbe-9562-fe11948ecdad
+  position: {"x": 11812.58651, "y": -8060, "h": 0}
+
+tag: c4e94727-f272-49e9-8c8c-4744a65a7d39
+  position: {"x": 11777.94549, "y": -8280, "h": 0}
+
+tag: af305fd1-4d4b-4c14-95bf-1611379c27ce
+  position: {"x": 18532.94364, "y": -11940}
+
+tag: de2884ec-bb24-497d-a21d-d6612be6f560
+  position: {"x": 18913.99482, "y": -12160, "h": 0}
+
+tag: 200e94b5-2cdb-486a-b040-cacc5a9eb92d
+  position: {"x": 26985.35158, "y": -16900}
+
+tag: 69a28e54-ebdc-4f02-b77f-a43b5ab02228
+  position: {"x": 18948.63583, "y": -11700, "h": 0}
+
+tag: b5fee0f5-32d2-4b75-8fb9-afe41a622595
+  position: {"x": 31280.83758, "y": -4540, "h": 40}
+
+tag: 86c666b3-16e4-45fa-b51d-813973d59115
+  position: {"x": 10288.3818, "y": -17140}
+
+tag: 8597e0f4-cf58-4560-abda-7f34ba63897a
+  position: {"x": 19745.37921, "y": -22600, "h": 0}
+
+tag: b22cbcd3-a5f1-4460-adf1-0c147ecf1342
+  position: {"x": 9249.15131, "y": -17300, "h": 0}
+
+tag: 0d5e0cf2-3a68-4857-8524-766c464a8c4f
+  position: {"x": 6304.66494, "y": -15520}
+
+tag: 579260a4-2727-4c07-beb4-f8a16f95565c
+  position: {"x": 3637.3067, "y": -17820, "h": 0}
+
+tag: 38e4b8d7-4d85-40eb-b9bd-d979689d7667
+  position: {"x": 5507.92157, "y": -18860, "h": 0}
+
+tag: 78377d74-38e2-4f63-a55a-25dee68a90e3
+  position: {"x": 12089.71464, "y": -22660, "h": 0}
+
+tag: cc4d657b-01ec-4154-b2aa-56c5f7f7ee22
+  position: {"x": 12193.63769, "y": -23200, "h": 0}
+
+tag: 8e395b9d-a976-430b-bb63-23ab235d6c5c
+  position: {"x": 11985.79159, "y": -23320, "h": 0}
+
+tag: 9d6eb0f1-b2b8-46fb-904a-5bffebe42fac
+  position: {"x": 12020.4326, "y": -23740, "h": 0}
+
+tag: 1b620c5c-224f-413e-8d17-e62655b0a3e8
+  position: {"x": 12540.04785, "y": -23960}
+
+tag: 7df43817-0881-4fbe-8c5d-bdd988bd93a5
+  position: {"x": 11951.15057, "y": -8020, "h": 80}
+
+tag: 1b6dcd51-8a3a-44a1-9058-195a797de752
+  position: {"x": 12886.45801, "y": -8080}
+
+tag: 16431f13-bf95-44c3-92b7-fb12492b7485
+  position: {"x": 12150.05631, "y": -8214.83828, "h": 0}
+
+tag: 30c6d551-c5bd-4ab3-a8a6-324d95f06276
+  position: {"x": 18117.25145, "y": -11580, "h": 0}
+
+tag: 9bed1f6a-24f0-46fd-bf25-faf9fc5cd2e6
+  position: {"x": 12193.23374, "y": -8159.76678, "h": 0}
+
+tag: fa86519e-3838-43c6-97a1-c9cf5a7fa68a
+  position: {"x": 18671.50771, "y": -12100, "h": 0}
+
+tag: ebee027d-4d6f-46ef-b01c-593ca723f5a4
+  position: {"x": 9214.5103, "y": -17560, "h": 0}
+
+tag: 1e9d8be7-2ddb-44eb-a20d-bf3cc800fe5a
+  position: {"x": 6027.53681, "y": -15640}
+
+tag: 90646791-72a6-4131-b5b9-0c8659e041f6
+  position: {"x": 9029.90182, "y": -17453.41625, "h": 0}
+
+tag: bb7e310f-f640-42a4-a350-8dfdf11fc704
+  position: {"x": 6928.20323, "y": -19760, "h": 0}
+
+tag: 29ac7346-831a-40d3-8ffd-b1e25ae0c15c
+  position: {"x": 7101.40831, "y": -19940, "h": 0}
+
+tag: da7359e0-bb76-4094-aab3-12da8cd2c2cf
+  position: {"x": 7015.82305, "y": -19890.58732, "h": -80}
+
+tag: ce0ddbc7-ca72-4d44-9c81-f59c409fd068
+  position: {"x": 9318.43334, "y": -24740, "h": 0}
+
+tag: 63f530e7-d26e-4dbd-b521-2b9224eb9046
+  position: {"x": 12073.46697, "y": -23149.3806, "h": 0}
+
+tag: d794e0bb-2595-4da0-aaf2-9b7c41dac4ba
+  position: {"x": 19502.89209, "y": -12180, "h": 0}
+
+tag: 4813645f-4ad5-4f7f-af8b-f4a3af2d15ca
+  position: {"x": 19121.84092, "y": -12200}
+
+tag: 1928b813-a2f7-41dd-b7af-4b3d4f6e0c47
+  position: {"x": 26569.65939, "y": -16900}
+
+tag: adaecb7b-98ef-40eb-80b7-81a0e9c012b9
+  position: {"x": 26436.19219, "y": -16822.94268, "h": 0}
+
+tag: f439ee0c-e338-4af1-9679-d7d87b8e3528
+  position: {"x": 19814.66124, "y": -11680, "h": 0}
+
+tag: 8ab301ed-4b41-4a5f-8f35-2063112f555c
+  position: {"x": 31384.76063, "y": -4840, "h": 40}
+
+tag: 3db7b0f6-4d56-4b5a-9739-5136b52771fd
+  position: {"x": 4468.69108, "y": 700, "h": 120}
+
+tag: 4f27fe24-555e-4fed-afa1-0c41729dcfcc
+  position: {"x": 4052.99889, "y": 1020, "h": 80}
+
+tag: 8c040663-d0ab-44f6-918f-de02098e415a
+  position: {"x": 1766.69182, "y": 2500}
+
+tag: a999ad81-a00d-4bde-ab20-8874b236fabf
+  position: {"x": 9387.71538, "y": 3420, "h": -120}
+
+tag: 4c8e5e7d-a617-4ee2-a7ab-f0cfcbeacabb
+  position: {"x": 9491.63843, "y": 3480, "h": 0}
+
+tag: 34cd8466-c459-466a-8ebf-4496bee69e32
+  position: {"x": 17736.20027, "y": 440, "h": 0}
+
+tag: 03e76b4c-c7e4-4e47-b91e-f0d618327335
+  position: {"x": 15657.7393, "y": 7200, "h": 160}
+
+tag: 8e3dbf32-b118-4a95-aaf2-78ccb1645eb6
+  position: {"x": 10253.74078, "y": 10240, "h": -40}
+
+tag: 94a9f324-7825-452e-9d3a-e3351257c1c7
+  position: {"x": 17597.6362, "y": 8320, "h": 0}
+
+tag: ededb528-17ad-4be0-ae54-a74d8475af9a
+  position: {"x": 20472.84055, "y": 6820, "h": 0}
+
+tag: 63428612-88eb-4249-9411-48d8298430fc
+  position: {"x": 20091.78937, "y": 6600}
+
+tag: 2ce1c8f1-0a97-4f8a-aef0-d087b2caa049
+  position: {"x": 21338.86595, "y": 6320, "h": 0}
+
+tag: 82440ca0-ea95-4cc0-a647-1a9a79da29a7
+  position: {"x": 22378.09643, "y": 5720, "h": 0}
+
+tag: 40440d30-f336-44ff-8a64-8b1ebf89d917
+  position: {"x": 24733.68553, "y": 4360, "h": 0}
+
+tag: c1ed5684-975a-41a4-af20-72239b243e64
+  position: {"x": 29721.99186, "y": 1480}
+
+tag: 1789200d-4fa5-4b3e-8a18-206d6ae7d0b1
+  position: {"x": 34641.01615, "y": -1280, "h": 0}
+
+tag: 16667ccb-9c90-435a-bcc8-277b59e85879
+  position: {"x": 39837.16857, "y": -4120, "h": 0}
+
+tag: 00a6522e-f7c3-43e1-b6ae-844f91fb257f
+  position: {"x": 37550.86151, "y": -2800}
+
+tag: 8b495233-8f22-4c73-b33f-24655c74cb19
+  position: {"x": 38821.80501, "y": -3533.77957, "h": 0}
+
+tag: 6901c7ce-59fa-4ae5-ad59-50a74ac9f8e8
+  position: {"x": 31627.24775, "y": -6500, "h": 0}
+
+tag: c804559c-e8ce-49b4-a874-8caa87c261e5
+  position: {"x": 31315.4786, "y": -4800, "h": 0}
+
+tag: ac8d86c2-a7f2-4a59-8682-7186cb267381
+  position: {"x": 18394.37958, "y": 8620, "h": 0}
+
+tag: d7177bd2-e737-450e-9ca6-e32ed39b6737
+  position: {"x": 18028.63719, "y": 8408.83854, "h": 0}
+
+tag: 94ae0de8-d10a-442f-b528-fefd1974346c
+  position: {"x": 13925.68849, "y": 11520}
+
+tag: 597a1460-81b9-48e4-9251-2bb0c32cd468
+  position: {"x": 21061.73782, "y": 10160, "h": 0}
+
+tag: 7e90ede8-1497-4f75-90f0-0a52d83bbf14
+  position: {"x": 15727.02133, "y": 13520}
+
+tag: 2d95382d-7d3d-43c8-b561-07598108ad63
+  position: {"x": 42816.29596, "y": 2000, "h": 0}
+
+tag: 6f6425a4-5b31-430a-81ea-b1b75c5dc140
+  position: {"x": 77353.38907, "y": -17660, "h": 0}
+
+tag: a2afd179-f34c-42fd-bb3f-0397b16e8051
+  position: {"x": 78669.74768, "y": -18420, "h": 0}
+
+tag: 1bc3fbeb-d7d1-4659-871b-c50de0ae550c
+  position: {"x": 100666.79294, "y": -26440}
+
+tag: e755dfe1-e947-4f40-93ff-34bc4e4a0da5
+  position: {"x": 101003.30504, "y": -26674.28535, "h": 0}
+
+tag: dc3aeee8-ac7f-4d44-9794-9bb29c90f229
+  position: {"x": 76799.13281, "y": -18700, "h": 0}
+
+tag: ff37455b-e171-41bc-91ca-e7106f8f64e1
+  position: {"x": 85771.15599, "y": -23400, "h": 0}
+
+tag: 9479bb38-b82e-4998-b080-1f11d9491cc1
+  position: {"x": 93773.23072, "y": -28020, "h": 0}
+
+tag: acbb4738-5d89-40cc-af91-ff13ba8f1938
+  position: {"x": 99870.04956, "y": -27660}
+
+tag: ddc2bd06-8fdb-4ff3-8175-e79a84d37384
+  position: {"x": 109049.91884, "y": -22360, "h": 0}
+
+tag: 9c2a235c-6c8f-4147-8781-ae9e50c28e99
+  position: {"x": 76972.33789, "y": -18600}
+
+tag: 5fa40c70-bc21-4c0a-8271-9d2f97411bb9
+  position: {"x": 60517.85522, "y": -28220, "h": -360}
+
+tag: 02897e22-a228-4ffc-9e56-9be0a6ad3cdd
+  position: {"x": 54975.29263, "y": -23060, "h": 0}
+
+tag: d950b286-4603-4d19-82b3-da86d60116c8
+  position: {"x": 47492.83314, "y": -35380, "h": 360}
+
+tag: 3d017733-237f-4a0e-93b5-4f295da8e4b9
+  position: {"x": 48774.55074, "y": -36280}
+
+tag: f3ba67ee-3488-4a5a-ac44-ffcc0653d3d3
+  position: {"x": 41084.24516, "y": -39320}
+
+tag: fc27b046-e7fa-4bae-a60a-815b2e45b7b4
+  position: {"x": 50818.37069, "y": -44820, "h": 0}
+
+tag: ef49fb83-d31e-4256-bd29-7dc90647a95f
+  position: {"x": 55183.13873, "y": -45340, "h": 0}
+
+tag: 884adf76-6fe0-4d86-8830-a2492fe64ae2
+  position: {"x": 48289.57652, "y": -46520, "h": -40}
+
+tag: 86d325e3-bffe-461a-ba65-cfe4a9cbabc7
+  position: {"x": 48809.19176, "y": -46780, "h": 120}
+
+tag: d557e3e6-00c4-4bf9-9abd-eced9511fc9f
+  position: {"x": 48429.91761, "y": -46681.02597, "h": -80}
+
+tag: 3a554bc0-0929-4cee-a0d8-f1e9bb8e3534
+  position: {"x": 45241.16709, "y": -48360, "h": 0}
+
+tag: c420700a-9f78-4758-9708-76e475f01638
+  position: {"x": 46973.2179, "y": -49320}
+
+tag: ffa0e066-0220-4e69-85e1-c9c711fa4915
+  position: {"x": 36373.06696, "y": -56840, "h": 0}
+
+tag: fd06aa7e-97fd-43ae-a752-d1b54ea1a010
+  position: {"x": 49779.14021, "y": -64620}
+
+tag: 5eca29a3-52ac-4f54-9aae-ccc1162d0db9
+  position: {"x": 31800.45283, "y": -33640, "h": 0}
+
+tag: 7120380c-fcdf-494a-90cb-0b452844f31f
+  position: {"x": 33844.27278, "y": -32340, "h": 120}
+
+tag: 60ebb38a-aa14-4515-8fb5-0b8ad86c1db3
+  position: {"x": 34502.45209, "y": -32720, "h": 0}
+
+tag: e8f8b7ef-aac6-4130-9a63-f386bc508f73
+  position: {"x": 34048.81787, "y": -32458.09416, "h": 0}
+
+tag: e002d7a2-7ad4-4b7f-9944-a8a07350c1ff
+  position: {"x": 36442.34899, "y": -30840, "h": 0}
+
+tag: cf7786ae-0281-44ec-b52a-e7841bb0bf62
+  position: {"x": 37724.06659, "y": -31580, "h": 0}
+
+tag: c37a0792-da6a-4b6c-85c8-823121a4d742
+  position: {"x": 36942.51712, "y": -31128.7722, "h": 0}
+
+tag: 23e280ad-d31f-43dd-89f9-85f58e9bb1bc
+  position: {"x": 41430.65532, "y": -28920, "h": 0}
+
+tag: 5f8c40a5-344b-49c9-9a29-c514a710d811
+  position: {"x": 40911.89237, "y": -28620.49207, "h": 0}
+
+tag: c5c7c9ef-9c4a-4c82-b11f-fdfc35360f53
+  position: {"x": 32143.09642, "y": -33757.82537, "h": -120}
+
+tag: 8c76714e-3b6a-4ad1-8e94-8fe2ecf2b49d
+  position: {"x": 23036.27574, "y": -35300, "h": 0}
+
+tag: 3a045eb9-8cde-4f38-b76c-ca2ccd198779
+  position: {"x": 23348.04489, "y": -35120, "h": 0}
+
+tag: fc912e3b-611b-44e7-a1df-7b94415cdb39
+  position: {"x": 22516.6605, "y": -35000, "h": 0}
+
+tag: 9a0815d6-929b-4846-a384-8d41ea97f7af
+  position: {"x": 22204.89135, "y": -35180}
+
+tag: 56d4f991-0223-4eb0-9be0-2ee06bfcdcd9
+  position: {"x": 4503.3321, "y": -39120}
+
+tag: 79410d64-e30c-45ff-9fcb-61b438a20de8
+  position: {"x": 22100.9683, "y": -49840}
+
+tag: 5fa1025a-c7a5-4bbe-9936-e89c0d6ad994
+  position: {"x": 40045.01467, "y": -39880, "h": 40}
+
+tag: b6814cbd-5919-4625-b8be-04294f5d8cf4
+  position: {"x": 41014.96312, "y": -40440, "h": 0}
+
+tag: 0ca3da20-3e0e-4ec6-b8b1-aed30c699359
+  position: {"x": 41430.65532, "y": -40920}
+
+tag: bdb801ff-4c39-46c2-bc07-728aca7c64f4
+  position: {"x": 41742.42446, "y": -40580, "h": 0}
+
+tag: 5645820b-cf0b-4063-8fdf-a88cc749178c
+  position: {"x": 41177.9023, "y": -40774.07298, "h": 0}
+
+tag: 0a8eb278-7ec2-430c-8580-d4919b06dedf
+  position: {"x": 22135.60932, "y": -49820, "h": 0}
+
+tag: ca760d04-d5d3-4064-a99a-f803fadc17fd
+  position: {"x": 22239.53237, "y": -49880, "h": 0}
+
+tag: b25f9ec2-a11b-4287-a435-eab24939042d
+  position: {"x": 200432.91945, "y": -40720}
+
+tag: 39acbc68-622b-4f81-a722-606bd5ba9a5d
+  position: {"x": 199324.40694, "y": -41360, "h": 0}
+
+tag: 0e5c5e18-822a-490b-b8aa-4325a5a3640c
+  position: {"x": 201957.12416, "y": -42960, "h": -80}
+
+tag: 360bd298-7dd7-472c-816b-fbc35d5eefe3
+  position: {"x": 198077.33035, "y": -45160}
+
+tag: 87288fe0-7713-4792-8dc3-198f988d4c7a
+  position: {"x": 202857.79058, "y": -43480}
+
+tag: bb964a6c-6889-4ac2-95ee-ab629899a4fa
+  position: {"x": 194751.7928, "y": -48160, "h": 0}
+
+tag: 2203f2c8-641f-4016-bd7b-8f82f7fb2b97
+  position: {"x": 196310.63853, "y": -49220, "h": -160}
+
+tag: f3347ef3-e0e8-480a-b284-433db1e32874
+  position: {"x": 190906.64001, "y": -52620}
+
+tag: a2ae20b6-2397-47de-a8f3-eb77f3e82696
+  position: {"x": 187303.97433, "y": -34620, "h": -160}
+
+tag: b51cca64-a132-4c91-a40d-ffc0b26fce7a
+  position: {"x": 201991.76518, "y": -28820, "h": 0}
+
+tag: 6f97303a-38a3-4783-abaf-110f853c19d4
+  position: {"x": 178228.0281, "y": -29460, "h": -80}
+
+tag: 9a8acd19-8f93-4635-ad67-4d5ce344e3ca
+  position: {"x": 170780.20963, "y": -33760}
+
+tag: 2795511a-72de-4072-91b1-a4b20dbab695
+  position: {"x": 177875.36776, "y": -29823.60854, "h": -160}
+
+tag: 26b51537-66da-468f-ae63-f3093a681ee5
+  position: {"x": 169706.33813, "y": -15900, "h": 0}
+
+tag: b07d6271-b707-4d7d-bd44-c62fff015e29
+  position: {"x": 171692.69398, "y": -17046.82309, "h": 0}
+
+tag: ddd66656-7709-4fae-97be-7d5b13ff1647
+  position: {"x": 211033.07039, "y": -60560, "h": 0}
+
+tag: 9f5befad-37e9-4176-90d5-118ebd23bc8f
+  position: {"x": 174348.23429, "y": -18580, "h": 0}
+
+tag: b62412e8-85f7-4dab-9941-3086de8a4cc8
+  position: {"x": 174071.10616, "y": -5220, "h": 0}
+
+tag: 7628f703-c395-44ad-8980-0aad2aa3b623
+  position: {"x": 167821.91833, "y": -22387.97027, "h": 0}
+
+tag: bd950886-5331-4788-b945-098b748f28f7
+  position: {"x": 67480.69946, "y": -15840}
+
+tag: ad872e57-0681-4d9f-ab6c-70bc89a1801c
+  position: {"x": 167004.33887, "y": -22860}
+
+tag: a6374cc6-611f-4e4c-b0ea-5305c6ddd58e
+  position: {"x": 152766.88123, "y": -30840, "h": 0}
+
+tag: 4e59a48c-4d52-46fa-acbc-7bd72abd96e5
+  position: {"x": 188932.10209, "y": -51520, "h": 0}
+
+tag: aa59dc1a-4b42-4b78-8919-9d0e5e4e6d5b
+  position: {"x": 159106.18718, "y": -40300, "h": 0}
+
+tag: 4cd23566-841a-463e-a70f-964ae992c74b
+  position: {"x": -3810.51178, "y": -840}
+
+tag: 6f98ff95-daf5-4b9e-9406-0ed435aca47b
+  position: {"x": 1418.08997, "y": -1181.26538, "h": 0}
+
+tag: 8e472caf-8029-4d5f-83ad-1c6197f13584
+  position: {"x": 1449.73051, "y": -1397.0023, "h": 0}
+
+tag: 7d6fd4c4-142b-4e19-84df-166fbf8f3c5a
+  position: {"x": 5646.48563, "y": -6700}
+
+tag: f55725be-71b3-4004-88f2-573e4c76b4af
+  position: {"x": 22551.30151, "y": 7020, "h": 0}
+
+tag: a9f5f0e0-d966-47fe-a985-8f5a4f926d10
+  position: {"x": 21234.9429, "y": 5060}
+
+tag: 1bdff812-52a8-4080-89b2-a152a2aa0db1
+  position: {"x": 24456.5574, "y": 4200}
+
+tag: 8b05bc80-3f0c-4300-8946-a9bc70e57b17
+  position: {"x": 8222.80975, "y": -18092.55858, "h": 0}
+
+tag: 56eb7314-822d-4214-976b-5e01d353ae23
+  position: {"x": 8660.25404, "y": -18400, "h": 0}
+
+tag: f1a45f48-26f3-4936-9e18-48bedd4f8488
+  position: {"x": 5819.69071, "y": 1480}
+
+tag: bec19cd9-9b0b-4af3-adcc-c7a191ebc65c
+  position: {"x": 5300.07547, "y": 1860, "h": 0}
+
+tag: 2e24e711-ebdf-4aa6-8cfa-2477cccd2bb5
+  position: {"x": 41292.35854, "y": 1120.15432, "h": 0}
+
+tag: 4689e3c6-7c07-4473-bc40-4d40247b375d
+  position: {"x": 41014.96312, "y": 1280, "h": 0}
+
+tag: 88188899-64d4-493c-8de6-d96f574f1b2b
+  position: {"x": 5156.96338, "y": -4217.37419, "h": -40}
+
+tag: dbfe3078-f0de-4b8a-af77-874055eb1d70
+  position: {"x": 4711.1782, "y": -4520, "h": 0}
+
+tag: e125ec1d-96de-4d25-a8bc-072968dc4623
+  position: {"x": 46176.47453, "y": -42140}
+
+tag: d41efbbf-4050-4a45-b9d9-4881a4b85631
+  position: {"x": 45795.42335, "y": -42400, "h": 0}
+
+tag: 11a8895b-63e7-4639-bd01-6d49f4e1bb19
+  position: {"x": 36754.11814, "y": -36300, "h": 360}
+
+tag: a0c44bcd-3096-48a0-9d75-2bff203c000f
+  position: {"x": 37031.24627, "y": -36100, "h": 0}
+
+tag: 6a981ec1-13d5-4bff-8f99-90de532dd587
+  position: {"x": 80678.92662, "y": -20460}
+
+tag: d3c519c9-4cec-41ab-85d1-d7b7238d50f3
+  position: {"x": 80263.23442, "y": -20780, "h": 0}
+
+tag: bbf6e430-992c-4297-97e5-c0efe904eb0b
+  position: {"x": 41181.56124, "y": -28776.18547, "h": 0}
+
+tag: cedfc20a-484d-4027-8e77-e08cf300607a
+  position: {"x": 41222.80922, "y": -29080}
+
+tag: 60794e07-9805-477a-b86e-509d69a551dc
+  position: {"x": 28059.22308, "y": -35800}
+
+tag: 806142c7-14cf-4a68-8d10-5fab4e066401
+  position: {"x": 27366.40276, "y": -35400, "h": 0}
+
+tag: 3c2cbdff-06c1-4940-8dd7-b3101aeaa07c
+  position: {"x": 40942.30403, "y": -39401.94975, "h": 0}
+
+tag: e4e66a4e-fd36-4819-92b5-e10fa30a28c7
+  position: {"x": 40806.65676, "y": -38999.73427, "h": 120}
+
+tag: b4a76363-887e-4700-a7d5-1629fc2e54e9
+  position: {"x": -14341.38069, "y": -5360}
+
+tag: 96fa038f-ab9c-430b-be58-3988edc40dfb
+  position: {"x": 4503.3321, "y": -35080, "h": 0}
+
+tag: 7d1c59af-a005-4049-bb36-fa0d82ce81b5
+  position: {"x": -13267.61382, "y": -31139.93959, "h": 0}
+
+tag: 0bb80e8b-9ba0-40bd-bd35-1230d9903cd3
+  position: {"x": -5196.15242, "y": -29360, "h": 0}
+
+tag: e7a4ccf1-f8e2-405b-af9c-e11eff904493
+  position: {"x": 1974.72784, "y": -39419.89035, "h": 320}
+
+tag: d41894d0-3ee2-4942-8856-60073d4b7ebb
+  position: {"x": 18983.27685, "y": -64560, "h": -640}
+
+tag: 96b27242-4a13-4fd8-b9ba-f35a083c8073
+  position: {"x": 2701.99926, "y": -39680}
+
+tag: dff47072-b2be-44cb-9b34-39c739ea009b
+  position: {"x": 3360.17857, "y": -40060}
+
+tag: 606cf086-59fb-4701-bf7e-585840df24f5
+  position: {"x": -6027.53681, "y": -40640, "h": 0}
+
+tag: dd4185aa-82de-44db-938f-5b6e20643c5c
+  position: {"x": 1732.05081, "y": -45120, "h": 0}
+
+tag: 8fa3b4b5-a28a-4329-af28-b7e3b9de854f
+  position: {"x": 36061.29781, "y": -60020, "h": 0}
+
+tag: 7a3429d2-dec0-4446-bb77-0f8f977c612c
+  position: {"x": 8521.68997, "y": -59240, "h": 0}
+
+tag: 3e31ae0c-f6a7-4ae8-a04e-13785fb817c0
+  position: {"x": 7239.97238, "y": -59980, "h": 0}
+
+tag: 99951f8d-a2fc-4a71-babd-a1424e1576b6
+  position: {"x": 18362.6536, "y": -64918.317, "h": 0}
+
+tag: c06e639c-a727-4ef3-96da-473f7390fc4f
+  position: {"x": 40564.62991, "y": -75140}
+
+tag: 02b3618a-bc1d-49dd-ba74-7371b4ac932d
+  position: {"x": 23277.5161, "y": -67756.86948, "h": 0}
+
+tag: 98d6b93c-c1b4-4a09-a172-4d5ff96f486b
+  position: {"x": 23936.94216, "y": -68140, "h": 0}
+
+tag: 63ba0f5c-5a47-4ad6-8275-f4b17eb74b21
+  position: {"x": 22343.45542, "y": -69060, "h": 0}
+
+tag: 837731ba-753b-4e8d-bc4c-77807d8d973b
+  position: {"x": 21828.53255, "y": -66920.0168, "h": 0}
+
+tag: 08746902-1a55-40b1-8bad-e77da06904f9
+  position: {"x": 18221.1745, "y": -69000, "h": 0}
+
+tag: 2eb96e5f-2f69-4993-ae05-54cb7a459dd9
+  position: {"x": 17008.73893, "y": -68300, "h": 0}
+
+tag: 5a275fe5-b0a9-401c-8642-2aae3be5f860
+  position: {"x": 18884.35306, "y": -68617.52595, "h": 0}
+
+tag: 738c4b59-f79f-4d68-807b-29e1a7ee3bc9
+  position: {"x": 16870.17487, "y": -67460, "h": 0}
+
+tag: 59041776-89fd-44f9-8832-388f4bf5fa4d
+  position: {"x": 20022.50734, "y": -67960}
+
+tag: 4e4a7733-6103-44b8-a72d-65a24f772e8f
+  position: {"x": 17944.04637, "y": -66760, "h": 0}
+
+tag: f41d8e19-85d6-4014-8a51-f0bd25f539f6
+  position: {"x": 29444.51393, "y": -71319.79805, "h": 0}
+
+tag: ed1ff9e6-4b8f-4efb-8b5b-3542e1fec00a
+  position: {"x": 31869.73486, "y": -69920}
+
+tag: d66a8467-3ce8-4817-88c6-135201a40094
+  position: {"x": 218649.28643, "y": -52597.22438, "h": 0}
+
+tag: 86c30ab5-f99e-4f10-8784-1733fc235a43
+  position: {"x": 198666.22763, "y": -38620}
+
+tag: cdec5136-2987-4af7-89a8-4329bde515f8
+  position: {"x": 183458.82154, "y": -19840, "h": 0}
+
