@@ -117,8 +117,13 @@ def get_node_visual_properties(node_type):
     }
     return type_properties.get(node_type, type_properties['Unknown'])
 
-def create_directed_graph_visualization():
-    """Main function to create directed graph visualization"""
+def create_directed_graph_visualization(show_edge_labels=True, label_threshold=100):
+    """Main function to create directed graph visualization
+    
+    Args:
+        show_edge_labels (bool): Whether to show edge length labels
+        label_threshold (float): Only show labels for edges shorter than this length
+    """
     
     # Read data
     print("Loading pipeline data...")
@@ -200,7 +205,7 @@ def create_directed_graph_visualization():
                                   lw=0.8))
         
         # Add edge length label (only for some edges to avoid clutter)
-        if edge['length'] < 100 and edge_count % 10 == 0:  # Show every 10th short edge
+        if show_edge_labels and edge['length'] < label_threshold and edge_count % 10 == 0:  # Show every 10th short edge
             mid_x = (from_pos[0] + to_pos[0]) / 2
             mid_y = (from_pos[1] + to_pos[1]) / 2
             
@@ -264,7 +269,10 @@ if __name__ == '__main__':
     plt.rcParams['font.family'] = ['DejaVu Sans']
     
     # Create the visualization
-    G, pos, nodeTypes, edge_attr = create_directed_graph_visualization()
+    G, pos, nodeTypes, edge_attr = create_directed_graph_visualization(
+        show_edge_labels=True, 
+        label_threshold=100
+    )
     
     print("\nVisualization saved as 'directed_pipeline_graph.png'")
     print("Visualization complete!")
