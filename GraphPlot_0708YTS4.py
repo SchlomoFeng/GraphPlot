@@ -12,7 +12,7 @@ def read_PipeFile(debug):
     # debug 情况下直接读 txt文件
     if debug:
         # 修改文件名为新的更新文件
-        with open('G://中控技术//blueprint//0708烟台S4_updated.json', 'r', encoding='utf-8') as file:
+        with open('0708烟台S4_updated.json', 'r', encoding='utf-8') as file:
             # 使用json.load()方法将JSON字符串解析为Python对象
             data = json.load(file)
 
